@@ -1,0 +1,128 @@
+[
+  {
+    "land": "Hessen",
+    "source": "https://www.fnp.de/lokales/wiesbaden/corona-hessen-regeln-coronavirus-covid-news-volker-bouffier-pressekonferenz-wiesbaden-frankfurt-zr-90073539.html",
+    "name": "FNP",
+    "stand": "2020-10-25",
+    "restrictions": {
+      "0": [
+        {
+          "title": "Veranstaltungen",
+          "description": [
+            "Öffentliche Veranstaltungen bis maximal 250 Personen",
+            "Private Veranstaltungen im öffentlichen Raum bis maximal 50 Personen"
+          ]
+        },
+        {
+          "title": "Ansammlungen und private Treffen",
+          "description": [
+            "Maximal 10 Personen oder 2 Hausstände im öffentlichen Raum"
+          ]
+        },
+        {
+          "title": "Maskenpflicht",
+          "description": [
+            "Keine Maskenpflicht vorgeschrieben!"
+          ]
+        }
+      ],
+      "35": [
+        {
+          "title": "Veranstaltungen",
+          "description": [
+            "Öffentliche Veranstaltungen bis maximal 150 Personen",
+            "Private Veranstaltungen im öffentlichen Raum bis maximal 25 Personen oder 2 Hausstände",
+            "Empfehlung: Sperrstunde von 23 Uhr bis 6 Uhr"
+          ]
+        },
+        {
+          "title": "Ansammlungen und private Treffen",
+          "description": [
+            "Maximal 10 Personen oder 2 Hausstände im öffentlichen Raum",
+            "Empfehlung: Private Veranstaltungen zuhause bis maximal 15 Personen oder 2 Hausstände"
+          ]
+        },
+        {
+          "title": "Maskenpflicht",
+          "description": [
+            "Maskenpflicht im öffentlichen Raum (z.B. Gastronomie)"
+          ]
+        }
+      ],
+      "50": [
+        {
+          "title": "Veranstaltungen",
+          "description": [
+            "Öffentliche Veranstaltungen bis maximal 100 Personen",
+            "Private Veranstaltungen im öffentlichen Raum bis maximal 10 Personen oder 2 Hausstände",
+            "Sperrstunde und Alkoholverbot im öffentlichen Raum von 23 Uhr bis 6 Uhr"
+          ]
+        },
+        {
+          "title": "Ansammlungen und private Treffen",
+          "description": [
+            "Maximal 10 Personen oder 2 Hausstände im öffentlichen Raum",
+            "Empfehlung: Private Veranstaltungen zuhause bis maximal 15 Personen oder 2 Hausstände"
+          ]
+        },
+        {
+          "title": "Maskenpflicht",
+          "description": [
+            "Maskenpflicht an belebten Plätzen im öffentlichen Raum (z.B. Gastronomie, öffentliche Straßen)"
+          ]
+        }
+      ],
+      "75": [
+        {
+          "title": "Veranstaltungen",
+          "description": [
+            "Öffentliche Veranstaltungen bis maximal 100 Personen",
+            "Private Veranstaltungen im öffentlichen Raum bis maximal 10 Personen oder 2 Hausstände",
+            "Sperrstunde und Alkoholverbot im öffentlichen Raum von 23 Uhr bis 6 Uhr"
+          ]
+        },
+        {
+          "title": "Ansammlungen und private Treffen",
+          "description": [
+            "Maximal 5 Personen oder 2 Hausstände im öffentlichen Raum",
+            "Empfehlung: Private Veranstaltungen zuhause bis maximal 15 Personen oder 2 Hausstände"
+          ]
+        },
+        {
+          "title": "Maskenpflicht",
+          "description": [
+            "Maskenpflicht an belebten Plätzen im öffentlichen Raum (z.B. Gastronomie, öffentliche Straßen)"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "land": "Bayern",
+    "restrictions": {
+      "0": [
+        {
+          "title": "Maskenpflicht",
+          "description": [
+            "Nirgends!"
+          ]
+        },
+        {
+          "title": "Versammlungen",
+          "description": [
+            "Min. 10",
+            "Max. 500"
+          ]
+        }
+      ],
+      "100": [
+        {
+          "title": "Maskenpflicht",
+          "description": [
+            "Überall!"
+          ]
+        }
+      ]
+    }
+  }
+]

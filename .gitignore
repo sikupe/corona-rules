@@ -1,0 +1,5 @@
+kreis.json
+.idea
+frontend/.idea
+frontend/dist
+frontend/node_modules

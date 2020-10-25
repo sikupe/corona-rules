@@ -1,0 +1,1726 @@
+[
+  {
+    "label": "Landkreis Region Hannover",
+    "code": "DE929"
+  },
+  {
+    "label": "Kreis Düren",
+    "code": "DEA26"
+  },
+  {
+    "label": "Landkreis Bernkastel-Wittlich",
+    "code": "DEB22"
+  },
+  {
+    "label": "Kreisfreie Stadt Zweibrücken",
+    "code": "DEB3A"
+  },
+  {
+    "label": "Landkreis Kaiserslautern",
+    "code": "DEB3F"
+  },
+  {
+    "label": "Stadtkreis Freiburg im Breisgau",
+    "code": "DE131"
+  },
+  {
+    "label": "Landkreis Ortenaukreis",
+    "code": "DE134"
+  },
+  {
+    "label": "Landkreis Kelheim",
+    "code": "DE226"
+  },
+  {
+    "label": "Landkreis Wunsiedel i. Fichtelgebirge",
+    "code": "DE24D"
+  },
+  {
+    "label": "Kreisfreie Stadt Memmingen",
+    "code": "DE274"
+  },
+  {
+    "label": "Landkreis Anhalt-Bitterfeld",
+    "code": "DEE05"
+  },
+  {
+    "label": "Kreisfreie Stadt Wilhelmshaven",
+    "code": "DE945"
+  },
+  {
+    "label": "Landkreis Oldenburg",
+    "code": "DE94D"
+  },
+  {
+    "label": "Kreis Viersen",
+    "code": "DEA1E"
+  },
+  {
+    "label": "Kreis Herford",
+    "code": "DEA43"
+  },
+  {
+    "label": "Landkreis Marburg-Biedenkopf",
+    "code": "DE724"
+  },
+  {
+    "label": "Landkreis Kassel",
+    "code": "DE734"
+  },
+  {
+    "label": "Landkreis Vulkaneifel",
+    "code": "DEB24"
+  },
+  {
+    "label": "Landkreis Biberach",
+    "code": "DE146"
+  },
+  {
+    "label": "Landkreis Bayreuth",
+    "code": "DE246"
+  },
+  {
+    "label": "Landkreis Dillingen a.d. Donau",
+    "code": "DE277"
+  },
+  {
+    "label": "Landkreis Uckermark",
+    "code": "DE40I"
+  },
+  {
+    "label": "Kreisfreie Stadt Rostock",
+    "code": "DE803"
+  },
+  {
+    "label": "Landkreis Zwickau",
+    "code": "DED45"
+  },
+  {
+    "label": "Kreisfreie Stadt Magdeburg",
+    "code": "DEE03"
+  },
+  {
+    "label": "Landkreis Saalekreis",
+    "code": "DEE0B"
+  },
+  {
+    "label": "Kreis Ostholstein",
+    "code": "DEF08"
+  },
+  {
+    "label": "Kreisfreie Stadt Kiel",
+    "code": "DEF02"
+  },
+  {
+    "label": "Kreis Plön",
+    "code": "DEF0A"
+  },
+  {
+    "label": "Landkreis Wittmund",
+    "code": "DE94H"
+  },
+  {
+    "label": "Kreisfreie Stadt Bremerhaven",
+    "code": "DE502"
+  },
+  {
+    "label": "Kreis Steinfurt",
+    "code": "DEA37"
+  },
+  {
+    "label": "Kreis Hochsauerlandkreis",
+    "code": "DEA57"
+  },
+  {
+    "label": "Landkreis Lahn-Dill-Kreis",
+    "code": "DE722"
+  },
+  {
+    "label": "Kreisfreie Stadt Neustadt an der Weinstraße",
+    "code": "DEB36"
+  },
+  {
+    "label": "Stadtkreis Stuttgart",
+    "code": "DE111"
+  },
+  {
+    "label": "Stadtkreis Baden-Baden",
+    "code": "DE121"
+  },
+  {
+    "label": "Landkreis Neckar-Odenwald-Kreis",
+    "code": "DE127"
+  },
+  {
+    "label": "Landkreis Neunkirchen",
+    "code": "DEC03"
+  },
+  {
+    "label": "Landkreis St. Wendel",
+    "code": "DEC06"
+  },
+  {
+    "label": "Landkreis Märkisch-Oderland",
+    "code": "DE409"
+  },
+  {
+    "label": "Kreis Schleswig-Flensburg",
+    "code": "DEF0C"
+  },
+  {
+    "label": "Kreis Steinburg",
+    "code": "DEF0E"
+  },
+  {
+    "label": "Kreis Stormarn",
+    "code": "DEF0F"
+  },
+  {
+    "label": "Kreisfreie Stadt Oldenburg (Oldb)",
+    "code": "DE943"
+  },
+  {
+    "label": "Kreisfreie Stadt Oberhausen",
+    "code": "DEA17"
+  },
+  {
+    "label": "Kreisfreie Stadt Wuppertal",
+    "code": "DEA1A"
+  },
+  {
+    "label": "Kreis Lippe",
+    "code": "DEA45"
+  },
+  {
+    "label": "Landkreis Groß-Gerau",
+    "code": "DE717"
+  },
+  {
+    "label": "Landkreis Vogelsbergkreis",
+    "code": "DE725"
+  },
+  {
+    "label": "Kreisfreie Stadt Koblenz",
+    "code": "DEB11"
+  },
+  {
+    "label": "Stadtkreis Karlsruhe",
+    "code": "DE122"
+  },
+  {
+    "label": "Landkreis Reutlingen",
+    "code": "DE141"
+  },
+  {
+    "label": "Landkreis Bodenseekreis",
+    "code": "DE147"
+  },
+  {
+    "label": "Kreisfreie Stadt Rosenheim",
+    "code": "DE213"
+  },
+  {
+    "label": "Landkreis Kitzingen",
+    "code": "DE268"
+  },
+  {
+    "label": "Landkreis Havelland",
+    "code": "DE408"
+  },
+  {
+    "label": "Kreisfreie Stadt Chemnitz",
+    "code": "DED41"
+  },
+  {
+    "label": "Kreisfreie Stadt Rostock",
+    "code": "DE803"
+  },
+  {
+    "label": "Landkreis Göttingen",
+    "code": "-----"
+  },
+  {
+    "label": "Landkreis Harburg",
+    "code": "DE933"
+  },
+  {
+    "label": "Landkreis Lüchow-Dannenberg",
+    "code": "DE934"
+  },
+  {
+    "label": "Kreisfreie Stadt Bonn",
+    "code": "DEA22"
+  },
+  {
+    "label": "Kreisfreie Stadt Leverkusen",
+    "code": "DEA24"
+  },
+  {
+    "label": "Kreis Olpe",
+    "code": "DEA59"
+  },
+  {
+    "label": "Landkreis Cochem-Zell",
+    "code": "DEB16"
+  },
+  {
+    "label": "Kreisfreie Stadt Trier",
+    "code": "DEB21"
+  },
+  {
+    "label": "Landkreis Bad Dürkheim",
+    "code": "DEB3C"
+  },
+  {
+    "label": "Landkreis Schwäbisch Hall",
+    "code": "DE11A"
+  },
+  {
+    "label": "Landkreis Donau-Ries",
+    "code": "DE27D"
+  },
+  {
+    "label": "Landkreis Prignitz",
+    "code": "DE40F"
+  },
+  {
+    "label": "Landkreis Mecklenburgische Seenplatte",
+    "code": "DE80J"
+  },
+  {
+    "label": "Landkreis Unstrut-Hainich-Kreis",
+    "code": "DEG09"
+  },
+  {
+    "label": "Landkreis Ilm-Kreis",
+    "code": "DEG0F"
+  },
+  {
+    "label": "Landkreis Saale-Holzland-Kreis",
+    "code": "DEG0J"
+  },
+  {
+    "label": "Kreis Dithmarschen",
+    "code": "DEF05"
+  },
+  {
+    "label": "Kreisfreie Stadt Flensburg",
+    "code": "DEF01"
+  },
+  {
+    "label": "Landkreis Aurich",
+    "code": "DE947"
+  },
+  {
+    "label": "Kreis Mettmann",
+    "code": "DEA1C"
+  },
+  {
+    "label": "Kreisfreie Stadt Münster",
+    "code": "DEA33"
+  },
+  {
+    "label": "Landkreis Neuwied",
+    "code": "DEB18"
+  },
+  {
+    "label": "Landkreis Alzey-Worms",
+    "code": "DEB3B"
+  },
+  {
+    "label": "Landkreis Neustadt a.d. Waldnaab",
+    "code": "DE237"
+  },
+  {
+    "label": "Landkreis Schwandorf",
+    "code": "DE239"
+  },
+  {
+    "label": "Landkreis Schweinfurt",
+    "code": "DE26B"
+  },
+  {
+    "label": "Kreisfreie Stadt Augsburg",
+    "code": "DE271"
+  },
+  {
+    "label": "Landkreis Saarpfalz-Kreis",
+    "code": "DEC05"
+  },
+  {
+    "label": "Landkreis Mittelsachsen",
+    "code": "DED43"
+  },
+  {
+    "label": "Kreis Nordfriesland",
+    "code": "DEF07"
+  },
+  {
+    "label": "Landkreis Vorpommern-Greifswald",
+    "code": "DE80N"
+  },
+  {
+    "label": "Landkreis Helmstedt",
+    "code": "DE917"
+  },
+  {
+    "label": "Landkreis Nienburg (Weser)",
+    "code": "DE927"
+  },
+  {
+    "label": "Landkreis Lüneburg",
+    "code": "DE935"
+  },
+  {
+    "label": "Kreis Heinsberg",
+    "code": "DEA29"
+  },
+  {
+    "label": "Kreisfreie Stadt Offenbach am Main",
+    "code": "DE713"
+  },
+  {
+    "label": "Landkreis Trier-Saarburg",
+    "code": "DEB25"
+  },
+  {
+    "label": "Kreisfreie Stadt Landau in der Pfalz",
+    "code": "DEB33"
+  },
+  {
+    "label": "Kreisfreie Stadt Pirmasens",
+    "code": "DEB37"
+  },
+  {
+    "label": "Kreisfreie Stadt Speyer",
+    "code": "DEB38"
+  },
+  {
+    "label": "Landkreis Göppingen",
+    "code": "DE114"
+  },
+  {
+    "label": "Landkreis Heilbronn",
+    "code": "DE118"
+  },
+  {
+    "label": "Landkreis Ostalbkreis",
+    "code": "DE11D"
+  },
+  {
+    "label": "Landkreis Freudenstadt",
+    "code": "DE12C"
+  },
+  {
+    "label": "Landkreis Freising",
+    "code": "DE21B"
+  },
+  {
+    "label": "Landkreis Tirschenreuth",
+    "code": "DE23A"
+  },
+  {
+    "label": "Kreisfreie Stadt Bamberg",
+    "code": "DE241"
+  },
+  {
+    "label": "Landkreis Lichtenfels",
+    "code": "DE24C"
+  },
+  {
+    "label": "Landkreis Augsburg",
+    "code": "DE276"
+  },
+  {
+    "label": "Landkreis Greiz",
+    "code": "DEG0L"
+  },
+  {
+    "label": "Landkreis Wesermarsch",
+    "code": "DE94G"
+  },
+  {
+    "label": "Kreis Borken",
+    "code": "DEA34"
+  },
+  {
+    "label": "Kreisfreie Stadt Bielefeld",
+    "code": "DEA41"
+  },
+  {
+    "label": "Kreisfreie Stadt Dortmund",
+    "code": "DEA52"
+  },
+  {
+    "label": "Landkreis Westerwaldkreis",
+    "code": "DEB1B"
+  },
+  {
+    "label": "Landkreis Donnersbergkreis",
+    "code": "DEB3D"
+  },
+  {
+    "label": "Landkreis Heidenheim",
+    "code": "DE11C"
+  },
+  {
+    "label": "Landkreis Weilheim-Schongau",
+    "code": "DE21N"
+  },
+  {
+    "label": "Kreisfreie Stadt Ansbach",
+    "code": "DE251"
+  },
+  {
+    "label": "Kreisfreie Stadt Würzburg",
+    "code": "DE263"
+  },
+  {
+    "label": "Landkreis Dahme-Spreewald",
+    "code": "DE406"
+  },
+  {
+    "label": "Landkreis Jerichower Land",
+    "code": "DEE06"
+  },
+  {
+    "label": "Kreisfreie Stadt Eisenach",
+    "code": "DEG0N"
+  },
+  {
+    "label": "Landkreis Nordwestmecklenburg",
+    "code": "DE80M"
+  },
+  {
+    "label": "Kreis Pinneberg",
+    "code": "DEF09"
+  },
+  {
+    "label": "Kreisfreie Stadt Remscheid",
+    "code": "DEA18"
+  },
+  {
+    "label": "Kreisfreie Stadt Frankenthal (Pfalz)",
+    "code": "DEB31"
+  },
+  {
+    "label": "Landkreis Böblingen",
+    "code": "DE112"
+  },
+  {
+    "label": "Landkreis Emmendingen",
+    "code": "DE133"
+  },
+  {
+    "label": "Landkreis Ravensburg",
+    "code": "DE148"
+  },
+  {
+    "label": "Landkreis Miesbach",
+    "code": "DE21F"
+  },
+  {
+    "label": "Landkreis Main-Spessart",
+    "code": "DE26A"
+  },
+  {
+    "label": "Landkreis Merzig-Wadern",
+    "code": "DEC02"
+  },
+  {
+    "label": "Landkreis Saarlouis",
+    "code": "DEC04"
+  },
+  {
+    "label": "Landkreis Oberspreewald-Lausitz",
+    "code": "DE40B"
+  },
+  {
+    "label": "Landkreis Potsdam-Mittelmark",
+    "code": "DE40E"
+  },
+  {
+    "label": "Landkreis Vogtlandkreis",
+    "code": "DED44"
+  },
+  {
+    "label": "Kreis Herzogtum Lauenburg",
+    "code": "DEF06"
+  },
+  {
+    "label": "Kreisfreie Stadt Salzgitter",
+    "code": "DE912"
+  },
+  {
+    "label": "Landkreis Main-Kinzig-Kreis",
+    "code": "DE719"
+  },
+  {
+    "label": "Landkreis Wetteraukreis",
+    "code": "DE71E"
+  },
+  {
+    "label": "Landkreis Enzkreis",
+    "code": "DE12B"
+  },
+  {
+    "label": "Landkreis Alb-Donau-Kreis",
+    "code": "DE145"
+  },
+  {
+    "label": "Landkreis Erlangen-Höchstadt",
+    "code": "DE257"
+  },
+  {
+    "label": "Kreisfreie Stadt Schweinfurt",
+    "code": "DE262"
+  },
+  {
+    "label": "Landkreis Gotha",
+    "code": "DEG0C"
+  },
+  {
+    "label": "Landkreis Cuxhaven",
+    "code": "DE932"
+  },
+  {
+    "label": "Kreisfreie Stadt Emden",
+    "code": "DE942"
+  },
+  {
+    "label": "Landkreis Leer",
+    "code": "DE94C"
+  },
+  {
+    "label": "Landkreis Verden",
+    "code": "DE93B"
+  },
+  {
+    "label": "Kreisfreie Stadt Duisburg",
+    "code": "DEA12"
+  },
+  {
+    "label": "Kreisfreie Stadt Mönchengladbach",
+    "code": "DEA15"
+  },
+  {
+    "label": "Kreis Siegen-Wittgenstein",
+    "code": "DEA5A"
+  },
+  {
+    "label": "Landkreis Mainz-Bingen",
+    "code": "DEB3J"
+  },
+  {
+    "label": "Stadtkreis Mannheim",
+    "code": "DE126"
+  },
+  {
+    "label": "Landkreis Tuttlingen",
+    "code": "DE137"
+  },
+  {
+    "label": "Landkreis Haßberge",
+    "code": "DE267"
+  },
+  {
+    "label": "Landkreis Neu-Ulm",
+    "code": "DE279"
+  },
+  {
+    "label": "Landkreis Unterallgäu",
+    "code": "DE27C"
+  },
+  {
+    "label": "Kreisfreie Stadt Dessau-Roßlau",
+    "code": "DEE01"
+  },
+  {
+    "label": "Landkreis Wittenberg",
+    "code": "DEE0E"
+  },
+  {
+    "label": "Kreisfreie Stadt Erfurt",
+    "code": "DEG01"
+  },
+  {
+    "label": "Kreisfreie Stadt Weimar",
+    "code": "DEG05"
+  },
+  {
+    "label": "Landkreis Aurich",
+    "code": "DE947"
+  },
+  {
+    "label": "Landkreis Leer",
+    "code": "DE94C"
+  },
+  {
+    "label": "Landkreis Hameln-Pyrmont",
+    "code": "DE923"
+  },
+  {
+    "label": "Landkreis Cloppenburg",
+    "code": "DE948"
+  },
+  {
+    "label": "Kreis Warendorf",
+    "code": "DEA38"
+  },
+  {
+    "label": "Landkreis Rheingau-Taunus-Kreis",
+    "code": "DE71D"
+  },
+  {
+    "label": "Landkreis Gießen",
+    "code": "DE721"
+  },
+  {
+    "label": "Landkreis Berchtesgadener Land",
+    "code": "DE215"
+  },
+  {
+    "label": "Landkreis Bad Tölz-Wolfratshausen",
+    "code": "DE216"
+  },
+  {
+    "label": "Landkreis Neuburg-Schrobenhausen",
+    "code": "DE21I"
+  },
+  {
+    "label": "Landkreis Oberhavel",
+    "code": "DE40A"
+  },
+  {
+    "label": "Landkreis Ludwigslust-Parchim",
+    "code": "DE80O"
+  },
+  {
+    "label": "Landkreis Sömmerda",
+    "code": "DEG0D"
+  },
+  {
+    "label": "Kreisfreie Stadt Kiel",
+    "code": "DEF02"
+  },
+  {
+    "label": "Kreis Pinneberg",
+    "code": "DEF09"
+  },
+  {
+    "label": "Kreisfreie Stadt Bremerhaven",
+    "code": "DE502"
+  },
+  {
+    "label": "Landkreis Rostock",
+    "code": "DE80K"
+  },
+  {
+    "label": "Landkreis Peine",
+    "code": "DE91A"
+  },
+  {
+    "label": "Kreisfreie Stadt Bottrop",
+    "code": "DEA31"
+  },
+  {
+    "label": "Kreisfreie Stadt Darmstadt",
+    "code": "DE711"
+  },
+  {
+    "label": "Landkreis Waldeck-Frankenberg",
+    "code": "DE736"
+  },
+  {
+    "label": "Landkreis Ahrweiler",
+    "code": "DEB12"
+  },
+  {
+    "label": "Landkreis Mayen-Koblenz",
+    "code": "DEB17"
+  },
+  {
+    "label": "Landkreis Landsberg am Lech",
+    "code": "DE21E"
+  },
+  {
+    "label": "Landkreis Starnberg",
+    "code": "DE21L"
+  },
+  {
+    "label": "Kreisfreie Stadt Straubing",
+    "code": "DE223"
+  },
+  {
+    "label": "Landkreis Ansbach",
+    "code": "DE256"
+  },
+  {
+    "label": "Landkreis Harz",
+    "code": "DEE09"
+  },
+  {
+    "label": "Landkreis Konstanz",
+    "code": "DE138"
+  },
+  {
+    "label": "Landkreis Northeim",
+    "code": "DE918"
+  },
+  {
+    "label": "Kreis Rheinisch-Bergischer Kreis",
+    "code": "DEA2B"
+  },
+  {
+    "label": "Kreis Minden-Lübbecke",
+    "code": "DEA46"
+  },
+  {
+    "label": "Landkreis Offenbach",
+    "code": "DE71C"
+  },
+  {
+    "label": "Landkreis Limburg-Weilburg",
+    "code": "DE723"
+  },
+  {
+    "label": "Landkreis Rhein-Lahn-Kreis",
+    "code": "DEB1A"
+  },
+  {
+    "label": "Stadtkreis Ulm",
+    "code": "DE144"
+  },
+  {
+    "label": "Kreisfreie Stadt Amberg",
+    "code": "DE231"
+  },
+  {
+    "label": "Landkreis Amberg-Sulzbach",
+    "code": "DE234"
+  },
+  {
+    "label": "Landkreis Aschaffenburg",
+    "code": "DE264"
+  },
+  {
+    "label": "Landkreis Elbe-Elster",
+    "code": "DE407"
+  },
+  {
+    "label": "Landkreis Börde",
+    "code": "DEE07"
+  },
+  {
+    "label": "Kreis Plön",
+    "code": "DEF0A"
+  },
+  {
+    "label": "Kreis Rendsburg-Eckernförde",
+    "code": "DEF0B"
+  },
+  {
+    "label": "Kreisfreie Stadt Bremen",
+    "code": "DE501"
+  },
+  {
+    "label": "Kreis Wesel",
+    "code": "DEA1F"
+  },
+  {
+    "label": "Kreis Oberbergischer Kreis",
+    "code": "DEA2A"
+  },
+  {
+    "label": "Kreis Gütersloh",
+    "code": "DEA42"
+  },
+  {
+    "label": "Kreisfreie Stadt Bochum",
+    "code": "DEA51"
+  },
+  {
+    "label": "Kreisfreie Stadt Hagen",
+    "code": "DEA53"
+  },
+  {
+    "label": "Landkreis Werra-Meißner-Kreis",
+    "code": "DE737"
+  },
+  {
+    "label": "Kreisfreie Stadt Mainz",
+    "code": "DEB35"
+  },
+  {
+    "label": "Kreisfreie Stadt Worms",
+    "code": "DEB39"
+  },
+  {
+    "label": "Landkreis Germersheim",
+    "code": "DEB3E"
+  },
+  {
+    "label": "Landkreis Cham",
+    "code": "DE235"
+  },
+  {
+    "label": "Landkreis Würzburg",
+    "code": "DE26C"
+  },
+  {
+    "label": "Landkreis Aichach-Friedberg",
+    "code": "DE275"
+  },
+  {
+    "label": "Landkreis Spree-Neiße",
+    "code": "DE40G"
+  },
+  {
+    "label": "Landkreis Nordwestmecklenburg",
+    "code": "DE80M"
+  },
+  {
+    "label": "Landkreis Leipzig",
+    "code": "DED52"
+  },
+  {
+    "label": "Landkreis Kyffhäuserkreis",
+    "code": "DEG0A"
+  },
+  {
+    "label": "Landkreis Hildburghausen",
+    "code": "DEG0E"
+  },
+  {
+    "label": "Landkreis Saalfeld-Rudolstadt",
+    "code": "DEG0I"
+  },
+  {
+    "label": "Kreisfreie Stadt Flensburg",
+    "code": "DEF01"
+  },
+  {
+    "label": "Kreis Schleswig-Flensburg",
+    "code": "DEF0C"
+  },
+  {
+    "label": "Kreisfreie Stadt Krefeld",
+    "code": "DEA14"
+  },
+  {
+    "label": "Kreis Euskirchen",
+    "code": "DEA28"
+  },
+  {
+    "label": "Landkreis Bad Kreuznach",
+    "code": "DEB14"
+  },
+  {
+    "label": "Landkreis Kusel",
+    "code": "DEB3G"
+  },
+  {
+    "label": "Landkreis Südwestpfalz",
+    "code": "DEB3K"
+  },
+  {
+    "label": "Landkreis Karlsruhe",
+    "code": "DE123"
+  },
+  {
+    "label": "Landkreis Schwarzwald-Baar-Kreis",
+    "code": "DE136"
+  },
+  {
+    "label": "Landkreis Tübingen",
+    "code": "DE142"
+  },
+  {
+    "label": "Landkreis Zollernalbkreis",
+    "code": "DE143"
+  },
+  {
+    "label": "Landkreis Pfaffenhofen a.d. Ilm",
+    "code": "DE21J"
+  },
+  {
+    "label": "Landkreis Straubing-Bogen",
+    "code": "DE22B"
+  },
+  {
+    "label": "Kreisfreie Stadt Hof",
+    "code": "DE244"
+  },
+  {
+    "label": "Landkreis Günzburg",
+    "code": "DE278"
+  },
+  {
+    "label": "Landkreis Ostallgäu",
+    "code": "DE27B"
+  },
+  {
+    "label": "Landkreis Görlitz",
+    "code": "DED2D"
+  },
+  {
+    "label": "Landkreis Wartburgkreis",
+    "code": "DEG0P"
+  },
+  {
+    "label": "Landkreis Sonneberg",
+    "code": "DEG0H"
+  },
+  {
+    "label": "Kreisfreie Stadt Wolfsburg",
+    "code": "DE913"
+  },
+  {
+    "label": "Landkreis Schaumburg",
+    "code": "DE928"
+  },
+  {
+    "label": "Landkreis Heidekreis",
+    "code": "DE938"
+  },
+  {
+    "label": "Kreis Recklinghausen",
+    "code": "DEA36"
+  },
+  {
+    "label": "Kreisfreie Stadt Frankfurt am Main",
+    "code": "DE712"
+  },
+  {
+    "label": "Landkreis Fulda",
+    "code": "DE732"
+  },
+  {
+    "label": "Landkreis Esslingen",
+    "code": "DE113"
+  },
+  {
+    "label": "Landkreis Fürstenfeldbruck",
+    "code": "DE21C"
+  },
+  {
+    "label": "Landkreis Mühldorf a. Inn",
+    "code": "DE21G"
+  },
+  {
+    "label": "Kreisfreie Stadt Weiden i.d. OPf.",
+    "code": "DE233"
+  },
+  {
+    "label": "Kreisfreie Stadt Erlangen",
+    "code": "DE252"
+  },
+  {
+    "label": "Landkreis Neustadt a.d. Aisch-Bad Windsheim",
+    "code": "DE25A"
+  },
+  {
+    "label": "Kreisfreie Stadt Aschaffenburg",
+    "code": "DE261"
+  },
+  {
+    "label": "Kreisfreie Stadt Kaufbeuren",
+    "code": "DE272"
+  },
+  {
+    "label": "Landkreis Regionalverband Saarbrücken",
+    "code": "DEC01"
+  },
+  {
+    "label": "Landkreis Stendal",
+    "code": "DEE0D"
+  },
+  {
+    "label": "Landkreis Nordhausen",
+    "code": "DEG07"
+  },
+  {
+    "label": "Landkreis Wittmund",
+    "code": "DE94H"
+  },
+  {
+    "label": "Kreisfreie Stadt Braunschweig",
+    "code": "DE911"
+  },
+  {
+    "label": "Landkreis Hildesheim",
+    "code": "DE925"
+  },
+  {
+    "label": "Kreis Rhein-Sieg-Kreis",
+    "code": "DEA2C"
+  },
+  {
+    "label": "Landkreis Eichstätt",
+    "code": "DE219"
+  },
+  {
+    "label": "Landkreis München",
+    "code": "DE21H"
+  },
+  {
+    "label": "Landkreis Neumarkt i.d. OPf.",
+    "code": "DE236"
+  },
+  {
+    "label": "Kreisfreie Stadt Potsdam",
+    "code": "DE404"
+  },
+  {
+    "label": "Kreisfreie Stadt Gera",
+    "code": "DEG02"
+  },
+  {
+    "label": "Landkreis Eichsfeld",
+    "code": "DEG06"
+  },
+  {
+    "label": "Kreis Dithmarschen",
+    "code": "DEF05"
+  },
+  {
+    "label": "Kreisfreie Stadt Hamburg",
+    "code": "DE600"
+  },
+  {
+    "label": "Kreisfreie Stadt Emden",
+    "code": "DE942"
+  },
+  {
+    "label": "Kreisfreie Stadt Solingen",
+    "code": "DEA19"
+  },
+  {
+    "label": "Kreis Ennepe-Ruhr-Kreis",
+    "code": "DEA56"
+  },
+  {
+    "label": "Kreis Soest",
+    "code": "DEA5B"
+  },
+  {
+    "label": "Kreisfreie Stadt Wiesbaden",
+    "code": "DE714"
+  },
+  {
+    "label": "Landkreis Eifelkreis Bitburg-Prüm",
+    "code": "DEB23"
+  },
+  {
+    "label": "Landkreis Rems-Murr-Kreis",
+    "code": "DE116"
+  },
+  {
+    "label": "Landkreis Main-Tauber-Kreis",
+    "code": "DE11B"
+  },
+  {
+    "label": "Landkreis Lörrach",
+    "code": "DE139"
+  },
+  {
+    "label": "Kreisfreie Stadt München",
+    "code": "DE212"
+  },
+  {
+    "label": "Landkreis Dachau",
+    "code": "DE217"
+  },
+  {
+    "label": "Landkreis Bad Kissingen",
+    "code": "DE265"
+  },
+  {
+    "label": "Landkreis Oberallgäu",
+    "code": "DE27E"
+  },
+  {
+    "label": "Landkreis Ostprignitz-Ruppin",
+    "code": "DE40D"
+  },
+  {
+    "label": "Landkreis Bautzen",
+    "code": "DED2C"
+  },
+  {
+    "label": "Landkreis Altenburger Land",
+    "code": "DEG0M"
+  },
+  {
+    "label": "Landkreis Osterholz",
+    "code": "DE936"
+  },
+  {
+    "label": "Kreisfreie Stadt Wilhelmshaven",
+    "code": "DE945"
+  },
+  {
+    "label": "Landkreis Vechta",
+    "code": "DE94F"
+  },
+  {
+    "label": "Kreis Rhein-Erft-Kreis",
+    "code": "DEA27"
+  },
+  {
+    "label": "Kreisfreie Stadt Kassel",
+    "code": "DE731"
+  },
+  {
+    "label": "Kreisfreie Stadt Kaiserslautern",
+    "code": "DEB32"
+  },
+  {
+    "label": "Landkreis Ludwigsburg",
+    "code": "DE115"
+  },
+  {
+    "label": "Landkreis Waldshut",
+    "code": "DE13A"
+  },
+  {
+    "label": "Landkreis Ebersberg",
+    "code": "DE218"
+  },
+  {
+    "label": "Kreisfreie Stadt Regensburg",
+    "code": "DE232"
+  },
+  {
+    "label": "Landkreis Coburg",
+    "code": "DE247"
+  },
+  {
+    "label": "Landkreis Teltow-Fläming",
+    "code": "DE40H"
+  },
+  {
+    "label": "Landkreis Nordsachsen",
+    "code": "DED53"
+  },
+  {
+    "label": "Landkreis Burgenlandkreis",
+    "code": "DEE08"
+  },
+  {
+    "label": "Landkreis Mansfeld-Südharz",
+    "code": "DEE0A"
+  },
+  {
+    "label": "Kreis Pinneberg",
+    "code": "DEF09"
+  },
+  {
+    "label": "Landkreis Friesland",
+    "code": "DE94A"
+  },
+  {
+    "label": "Landkreis Goslar",
+    "code": "DE916"
+  },
+  {
+    "label": "Landkreis Holzminden",
+    "code": "DE926"
+  },
+  {
+    "label": "Kreisfreie Stadt Gelsenkirchen",
+    "code": "DEA32"
+  },
+  {
+    "label": "Kreis Coesfeld",
+    "code": "DEA35"
+  },
+  {
+    "label": "Kreis Märkischer Kreis",
+    "code": "DEA58"
+  },
+  {
+    "label": "Landkreis Darmstadt-Dieburg",
+    "code": "DE716"
+  },
+  {
+    "label": "Landkreis Schwalm-Eder-Kreis",
+    "code": "DE735"
+  },
+  {
+    "label": "Landkreis Südliche Weinstraße",
+    "code": "DEB3H"
+  },
+  {
+    "label": "Landkreis Calw",
+    "code": "DE12A"
+  },
+  {
+    "label": "Kreisfreie Stadt Ingolstadt",
+    "code": "DE211"
+  },
+  {
+    "label": "Landkreis Traunstein",
+    "code": "DE21M"
+  },
+  {
+    "label": "Kreisfreie Stadt Landshut",
+    "code": "DE221"
+  },
+  {
+    "label": "Landkreis Deggendorf",
+    "code": "DE224"
+  },
+  {
+    "label": "Landkreis Hof",
+    "code": "DE249"
+  },
+  {
+    "label": "Landkreis Meißen",
+    "code": "DED2E"
+  },
+  {
+    "label": "Landkreis Salzlandkreis",
+    "code": "DEE0C"
+  },
+  {
+    "label": "Landkreis Weimarer Land",
+    "code": "DEG0G"
+  },
+  {
+    "label": "Kreisfreie Stadt Neumünster",
+    "code": "DEF04"
+  },
+  {
+    "label": "Landkreis Cuxhaven",
+    "code": "DE932"
+  },
+  {
+    "label": "Landkreis Rotenburg (Wümme)",
+    "code": "DE937"
+  },
+  {
+    "label": "Landkreis Osnabrück",
+    "code": "DE94E"
+  },
+  {
+    "label": "Kreisfreie Stadt Köln",
+    "code": "DEA23"
+  },
+  {
+    "label": "Kreis Paderborn",
+    "code": "DEA47"
+  },
+  {
+    "label": "Landkreis Hersfeld-Rotenburg",
+    "code": "DE733"
+  },
+  {
+    "label": "Kreisfreie Stadt Ludwigshafen am Rhein",
+    "code": "DEB34"
+  },
+  {
+    "label": "Stadtkreis Heilbronn",
+    "code": "DE117"
+  },
+  {
+    "label": "Landkreis Landshut",
+    "code": "DE227"
+  },
+  {
+    "label": "Landkreis Bamberg",
+    "code": "DE245"
+  },
+  {
+    "label": "Kreisfreie Stadt Nürnberg",
+    "code": "DE254"
+  },
+  {
+    "label": "Kreisfreie Stadt Brandenburg an der Havel",
+    "code": "DE401"
+  },
+  {
+    "label": "Landkreis Oder-Spree",
+    "code": "DE40C"
+  },
+  {
+    "label": "Landkreis Rostock",
+    "code": "DE80K"
+  },
+  {
+    "label": "Kreisfreie Stadt Jena",
+    "code": "DEG03"
+  },
+  {
+    "label": "Kreis Rendsburg-Eckernförde",
+    "code": "DEF0B"
+  },
+  {
+    "label": "Kreis Segeberg",
+    "code": "DEF0D"
+  },
+  {
+    "label": "Kreisfreie Stadt Osnabrück",
+    "code": "DE944"
+  },
+  {
+    "label": "Landkreis Ammerland",
+    "code": "DE946"
+  },
+  {
+    "label": "Landkreis Grafschaft Bentheim",
+    "code": "DE94B"
+  },
+  {
+    "label": "Kreisfreie Stadt Bremen",
+    "code": "DE501"
+  },
+  {
+    "label": "Kreis Rhein-Kreis Neuss",
+    "code": "DEA1D"
+  },
+  {
+    "label": "Landkreis Birkenfeld",
+    "code": "DEB15"
+  },
+  {
+    "label": "Landkreis Rhein-Pfalz-Kreis",
+    "code": "DEB3I"
+  },
+  {
+    "label": "Landkreis Rosenheim",
+    "code": "DE21K"
+  },
+  {
+    "label": "Landkreis Freyung-Grafenau",
+    "code": "DE225"
+  },
+  {
+    "label": "Landkreis Fürth",
+    "code": "DE258"
+  },
+  {
+    "label": "Landkreis Rhön-Grabfeld",
+    "code": "DE266"
+  },
+  {
+    "label": "Landkreis Vorpommern-Rügen",
+    "code": "DE80L"
+  },
+  {
+    "label": "Landkreis Erzgebirgskreis",
+    "code": "DED42"
+  },
+  {
+    "label": "Kreisfreie Stadt Dresden",
+    "code": "DED21"
+  },
+  {
+    "label": "Kreisfreie Stadt Suhl",
+    "code": "DEG04"
+  },
+  {
+    "label": "Landkreis Uelzen",
+    "code": "DE93A"
+  },
+  {
+    "label": "Kreis Kleve",
+    "code": "DEA1B"
+  },
+  {
+    "label": "Kreis Unna",
+    "code": "DEA5C"
+  },
+  {
+    "label": "Landkreis Altötting",
+    "code": "DE214"
+  },
+  {
+    "label": "Landkreis Erding",
+    "code": "DE21A"
+  },
+  {
+    "label": "Landkreis Garmisch-Partenkirchen",
+    "code": "DE21D"
+  },
+  {
+    "label": "Landkreis Passau",
+    "code": "DE228"
+  },
+  {
+    "label": "Landkreis Dingolfing-Landau",
+    "code": "DE22C"
+  },
+  {
+    "label": "Landkreis Kronach",
+    "code": "DE24A"
+  },
+  {
+    "label": "Kreisfreie Stadt Fürth",
+    "code": "DE253"
+  },
+  {
+    "label": "Kreisfreie Stadt Kempten (Allgäu)",
+    "code": "DE273"
+  },
+  {
+    "label": "Kreisfreie Stadt Schwerin",
+    "code": "DE804"
+  },
+  {
+    "label": "Landkreis Vorpommern-Greifswald",
+    "code": "DE80N"
+  },
+  {
+    "label": "Landkreis Vorpommern-Rügen",
+    "code": "DE80L"
+  },
+  {
+    "label": "Kreisfreie Stadt Lübeck",
+    "code": "DEF03"
+  },
+  {
+    "label": "Kreis Nordfriesland",
+    "code": "DEF07"
+  },
+  {
+    "label": "Landkreis Gifhorn",
+    "code": "DE914"
+  },
+  {
+    "label": "Landkreis Wolfenbüttel",
+    "code": "DE91B"
+  },
+  {
+    "label": "Landkreis Diepholz",
+    "code": "DE922"
+  },
+  {
+    "label": "Landkreis Stade",
+    "code": "DE939"
+  },
+  {
+    "label": "Kreisfreie Stadt Delmenhorst",
+    "code": "DE941"
+  },
+  {
+    "label": "Kreisfreie Stadt Mülheim an der Ruhr",
+    "code": "DEA16"
+  },
+  {
+    "label": "Kreis Städteregion Aachen",
+    "code": "DEA2D"
+  },
+  {
+    "label": "Landkreis Bergstraße",
+    "code": "DE715"
+  },
+  {
+    "label": "Landkreis Hochtaunuskreis",
+    "code": "DE718"
+  },
+  {
+    "label": "Stadtkreis Heidelberg",
+    "code": "DE125"
+  },
+  {
+    "label": "Stadtkreis Pforzheim",
+    "code": "DE129"
+  },
+  {
+    "label": "Landkreis Breisgau-Hochschwarzwald",
+    "code": "DE132"
+  },
+  {
+    "label": "Kreisfreie Stadt Passau",
+    "code": "DE222"
+  },
+  {
+    "label": "Kreisfreie Stadt Coburg",
+    "code": "DE243"
+  },
+  {
+    "label": "Landkreis Kulmbach",
+    "code": "DE24B"
+  },
+  {
+    "label": "Landkreis Miltenberg",
+    "code": "DE269"
+  },
+  {
+    "label": "Kreisfreie Stadt Berlin",
+    "code": "DE300"
+  },
+  {
+    "label": "Landkreis Saale-Orla-Kreis",
+    "code": "DEG0K"
+  },
+  {
+    "label": "Landkreis Stade",
+    "code": "DE939"
+  },
+  {
+    "label": "Kreis Ostholstein",
+    "code": "DEF08"
+  },
+  {
+    "label": "Landkreis Emsland",
+    "code": "DE949"
+  },
+  {
+    "label": "Landkreis Friesland",
+    "code": "DE94A"
+  },
+  {
+    "label": "Landkreis Leer",
+    "code": "DE94C"
+  },
+  {
+    "label": "Kreisfreie Stadt Düsseldorf",
+    "code": "DEA11"
+  },
+  {
+    "label": "Kreisfreie Stadt Herne",
+    "code": "DEA55"
+  },
+  {
+    "label": "Landkreis Odenwaldkreis",
+    "code": "DE71B"
+  },
+  {
+    "label": "Landkreis Hohenlohekreis",
+    "code": "DE119"
+  },
+  {
+    "label": "Landkreis Konstanz",
+    "code": "DE138"
+  },
+  {
+    "label": "Landkreis Nürnberger Land",
+    "code": "DE259"
+  },
+  {
+    "label": "Landkreis Lindau (Bodensee)",
+    "code": "DE27A"
+  },
+  {
+    "label": "Kreis Steinburg",
+    "code": "DEF0E"
+  },
+  {
+    "label": "Kreis Dithmarschen",
+    "code": "DEF05"
+  },
+  {
+    "label": "Kreisfreie Stadt Hamburg",
+    "code": "DE600"
+  },
+  {
+    "label": "Landkreis Celle",
+    "code": "DE931"
+  },
+  {
+    "label": "Kreisfreie Stadt Hamm",
+    "code": "DEA54"
+  },
+  {
+    "label": "Landkreis Main-Taunus-Kreis",
+    "code": "DE71A"
+  },
+  {
+    "label": "Landkreis Rastatt",
+    "code": "DE124"
+  },
+  {
+    "label": "Kreisfreie Stadt Bayreuth",
+    "code": "DE242"
+  },
+  {
+    "label": "Landkreis Forchheim",
+    "code": "DE248"
+  },
+  {
+    "label": "Kreisfreie Stadt Cottbus",
+    "code": "DE402"
+  },
+  {
+    "label": "Kreisfreie Stadt Frankfurt (Oder)",
+    "code": "DE403"
+  },
+  {
+    "label": "Kreisfreie Stadt Leipzig",
+    "code": "DED51"
+  },
+  {
+    "label": "Kreisfreie Stadt Essen",
+    "code": "DEA13"
+  },
+  {
+    "label": "Kreis Höxter",
+    "code": "DEA44"
+  },
+  {
+    "label": "Landkreis Altenkirchen (Westerwald)",
+    "code": "DEB13"
+  },
+  {
+    "label": "Landkreis Rhein-Hunsrück-Kreis",
+    "code": "DEB19"
+  },
+  {
+    "label": "Landkreis Rhein-Neckar-Kreis",
+    "code": "DE128"
+  },
+  {
+    "label": "Landkreis Rottweil",
+    "code": "DE135"
+  },
+  {
+    "label": "Landkreis Sigmaringen",
+    "code": "DE149"
+  },
+  {
+    "label": "Landkreis Regen",
+    "code": "DE229"
+  },
+  {
+    "label": "Landkreis Rottal-Inn",
+    "code": "DE22A"
+  },
+  {
+    "label": "Landkreis Regensburg",
+    "code": "DE238"
+  },
+  {
+    "label": "Kreisfreie Stadt Schwabach",
+    "code": "DE255"
+  },
+  {
+    "label": "Landkreis Roth",
+    "code": "DE25B"
+  },
+  {
+    "label": "Landkreis Weißenburg-Gunzenhausen",
+    "code": "DE25C"
+  },
+  {
+    "label": "Landkreis Barnim",
+    "code": "DE405"
+  },
+  {
+    "label": "Landkreis Sächsische Schweiz-Osterzgebirge",
+    "code": "DED2F"
+  },
+  {
+    "label": "Kreisfreie Stadt Halle (Saale)",
+    "code": "DEE02"
+  },
+  {
+    "label": "Landkreis Altmarkkreis Salzwedel",
+    "code": "DEE04"
+  },
+  {
+    "label": "Landkreis Schmalkalden-Meiningen",
+    "code": "DEG0B"
+  }
+]
