@@ -10,6 +10,7 @@ steps:
     image: node:alpine
     commands:
       - cd frontend
+      - npm install
       - npm run build
 
   - name: build-go
