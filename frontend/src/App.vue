@@ -87,8 +87,14 @@ export default {
 }
 
 .title {
-  font-size: 64pt;
+  font-size: 32pt;
   color: #484848;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 64pt;
+  }
 }
 
 .rules {

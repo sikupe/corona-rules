@@ -98,28 +98,37 @@
     }
   },
   {
-    "land": "Bayern",
+    "land": "Baden-Württemberg",
+    "source": "https://www.baden-wuerttemberg.de/de/service/aktuelle-infos-zu-corona/faq-corona-verordnung/",
+    "name": "Website des Landes",
+    "stand": "2020-10-25",
     "restrictions": {
       "0": [
         {
-          "title": "Maskenpflicht",
+          "title": "Veranstaltungen",
           "description": [
-            "Nirgends!"
+            "Private Veranstaltungen sind untersagt (Ansammlungen über 10 Personen)",
+            "Sonstige Veranstaltungen sind mit bis zu 100 Personen unter Auflagen (Hygienekonzept, etc.) erlaubt"
           ]
         },
         {
-          "title": "Versammlungen",
+          "title": "Ansammlungen",
           "description": [
-            "Min. 10",
-            "Max. 500"
+            "Maximal zehn Personen egal wo",
+            "Diese Begrenzung gilt nicht wenn alle Perrsonen verwandt sind, sowie deren Partner oder alle Personen in einem Haushalt wohnen"
           ]
-        }
-      ],
-      "100": [
+        },
         {
           "title": "Maskenpflicht",
           "description": [
-            "Überall!"
+            "Die Maskenpflicht gilt grundsätzlich für Personen ab dem sechsten Lebensjahr",
+            "Eine Maskenpflicht gilt an folgenden Orten:",
+            "In öffentlichen Verkehrsmitteln",
+            "In Geschäften und auf Märkten in geschlossenen Räumen",
+            "In Schulen ab der fünften Jahrgangsstufe",
+            "In Freizeitparks und Vergnügungsstätten in geschlossenen Räumen",
+            "In Gastronomie wenn man sich nicht am Platz befinde",
+            "In Fußgängerbereichen wie Einkaufsstraßen und Fußgängerzonen."
           ]
         }
       ]
