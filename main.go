@@ -14,17 +14,16 @@ import (
 	"net/http"
 	"os"
 	"strconv"
+	"sync"
+	"time"
 )
 
 var fc *geojson.FeatureCollection
 var rkiInformation = make(map[string]interface{})
+var rkiInformationLock = &sync.Mutex{}
 
 func main() {
-	err := downloadRkiInformation("https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_Landkreisdaten/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json", "kreis.json")
-	if err != nil {
-		log.Fatal(err)
-	}
-	initRkiInformation()
+	startRkiInformationUpdater()
 
 	initFeatureCollection()
 
@@ -48,8 +47,27 @@ func setupRouter() {
 	log.Fatal(http.ListenAndServe(":8080", handlers.CORS(originsOk, headersOk, methodsOk)(router)))
 }
 
-func downloadRkiInformation(url string, filepath string) error {
+func startRkiInformationUpdater() {
+	updateRkiInformation()
+	ticker := time.NewTicker(1 * time.Hour)
+	go func() {
+		for range ticker.C {
+			updateRkiInformation()
+		}
+	}()
+}
 
+func updateRkiInformation() {
+	rkiInformationLock.Lock()
+	err := downloadRkiInformation("https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_Landkreisdaten/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json", "kreis.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+	initRkiInformation()
+	rkiInformationLock.Unlock()
+}
+
+func downloadRkiInformation(url string, filepath string) error {
 	resp, err := http.Get(url)
 	if err != nil {
 		return err
@@ -91,11 +109,13 @@ func initFeatureCollection() {
 }
 
 func findIncidence(nuts string) (float64, error) {
+	rkiInformationLock.Lock()
 	for _, feature := range rkiInformation["features"].([]interface{}) {
 		if feature.(map[string]interface{})["attributes"].(map[string]interface{})["NUTS"] == nuts {
 			return feature.(map[string]interface{})["attributes"].(map[string]interface{})["cases7_per_100k"].(float64), nil
 		}
 	}
+	rkiInformationLock.Unlock()
 	return 0, fmt.Errorf("landkreis not found")
 }
 
