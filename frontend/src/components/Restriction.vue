@@ -23,11 +23,21 @@ export default {
 
 <style scoped>
 .restriction-title {
-  font-size: 24pt;
+  font-size: 16pt;
 }
 
 .restrictions {
-  font-size: 20pt;
+  font-size: 12pt;
+}
+
+@media only screen and (min-width: 768px) {
+  .restriction-title {
+    font-size: 24pt;
+  }
+
+  .restrictions {
+    font-size: 20pt;
+  }
 }
 
 .restriction-wrapper {
@@ -39,7 +49,7 @@ export default {
   margin: 25px;
   text-align: left;
   border-radius: 10px;
-  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
   font-family: 'Nunito', sans-serif;
 }
 </style>
