@@ -13,13 +13,20 @@ steps:
       - npm install
       - npm run build
 
-  - name: build-go
-    image: golang
+  - name: execute
+    image: docker/compose:1.27.4
+    volumes:
+      - name: dockersock
+        path: /var/run/docker.sock
     commands:
-      - go get
-      - go build
+      - docker-compose down
+      - docker-compose up --build -d
 
-  - name: run
-    image: golang
-    commands:
-      - ./main
+volumes:
+  - name: dockersock
+    host:
+      path: /var/run/docker.sock
+
+trigger:
+  branch:
+    - master
