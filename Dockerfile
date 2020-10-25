@@ -1,11 +1,13 @@
 FROM golang
 
-WORKDIR /app
+COPY . /go/src/github.com/sikupe/corona-rules
 
-COPY . .
+WORKDIR /go/src/github.com/sikupe/corona-rules
 
-RUN go build ./ main.go
+RUN go get ./
+
+RUN go build
 
 EXPOSE 8080
 
-CMD ["./main"]
+CMD ["./corona-rules"]
