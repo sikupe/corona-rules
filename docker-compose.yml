@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  corona-rules:
+    build: .
+    container_name: corona-rules
+    restart: always
+    networks:
+      - proxy-network
+    labels:
+      subdomain: corona
+      traefik.enable: true
+      traefik.http.routers.corona.tls: true
+      traefik.http.routers.corona.entrypoints: web-secure
+      traefik.http.routers.corona.tls.certresolver: letsencrypt
+      traefik.docker.network: proxy-network
+
+networks:
+  proxy-network:
+    external: true
