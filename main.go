@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"github.com/paulmach/orb"
 	"github.com/paulmach/orb/geojson"
@@ -31,11 +30,6 @@ func main() {
 }
 
 func setupRouter() {
-	allowedOrigins := "http://localhost:8080" //os.Getenv("ORIGIN_ALLOWED")
-	headersOk := handlers.AllowedHeaders([]string{"X-Requested-With"})
-	originsOk := handlers.AllowedOrigins([]string{allowedOrigins})
-	methodsOk := handlers.AllowedMethods([]string{"GET"})
-
 	router := mux.NewRouter()
 	fs := http.FileServer(http.Dir("./frontend/dist"))
 	router.Handle("/", fs)
@@ -44,7 +38,7 @@ func setupRouter() {
 	router.PathPrefix("/js/").Handler(fs)
 	router.Handle("/favicon.ico", fs)
 	router.HandleFunc("/locate/{lat}/{lon}", locate)
-	log.Fatal(http.ListenAndServe(":8080", handlers.CORS(originsOk, headersOk, methodsOk)(router)))
+	log.Fatal(http.ListenAndServe(":8080", router))
 }
 
 func startRkiInformationUpdater() {

@@ -42,10 +42,10 @@ export default {
             for (let land of json) {
               if (land.land === this.state) {
                 let marks = Object.keys(land.restrictions);
-                marks = marks.sort();
+                marks = marks.map((s) => parseInt(s)).sort((a, b) => a - b);
                 for (let i = 1; i < marks.length; i++) {
-                  const lowerBound = parseInt(marks[i - 1]);
-                  const upperBound = parseInt(marks[i]);
+                  const lowerBound = marks[i - 1];
+                  const upperBound = marks[i];
                   const incidence = parseFloat(this.incidence);
                   if (lowerBound <= incidence && incidence < upperBound) {
                     this.restrictions = land.restrictions[marks[i - 1]];
