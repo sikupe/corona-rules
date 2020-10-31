@@ -25,7 +25,7 @@ export default {
       navigator.geolocation.getCurrentPosition((location) => {
         this.$emit("position-update", location);
       }, function (errorPosition) {
-        alert('Standort konnte nicht abgefragt werrden!\n\n"' + errorPosition.message + '"\n\nWenn du iOS und Safari nutzt, erlaube Safari auf deinen Standort zuzugreifen!');
+        alert('Standort konnte nicht abgefragt werrden!\n\n"' + errorPosition.message + '"\n\nWenn du iOS und Safari nutzt, erlaube Safari auf deinen Standort zuzugreifen! (Einstellungen -> Datenschutz -> Ortungsdienste -> Safari -> "Beim Verwenden")');
       });
     }
   }
