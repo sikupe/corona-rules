@@ -10,27 +10,53 @@
     <Restriction v-for="restriction in restrictions" :key="restriction.id" :title="restriction.title"
                  :description="restriction.description"/>
   </div>
-  <Footer v-if="restrictions" :name="name" :stand="stand" :source="source"/>
+  <RestrictionFooter v-if="restrictions" :name="name" :stand="stand" :source="source"/>
+
+  <div class="center-horizontally">
+    <DataProtection v-if="showDataProtection" @on-close="onDataProtectionClose"/>
+    <Impress v-if="showImpress" @on-close="onImpressClose" />
+  </div>
+
+  <div class="bar">
+    <a class="item" href="#" v-on:click="onDataProtectionOpen">Datenschutzerklärung</a>
+    <a class="item" href="#" v-on:click="onImpressOpen">Impressum</a>
+  </div>
 </template>
 
 <script>
 import Position from './components/Position.vue'
 import Restriction from "@/components/Restriction.vue";
 import Status from "@/components/Status.vue";
-import Footer from "@/components/Footer.vue";
+import RestrictionFooter from "@/components/RestrictionFooter.vue";
 import json from './assets/restrictions.json';
 import axios from 'axios';
+import DataProtection from "@/components/DataProtection";
+import Impress from "@/components/Impress";
 
 export default {
   name: 'App',
   components: {
+    Impress,
+    DataProtection,
     Restriction,
     Position,
     Status,
-    Footer
+    RestrictionFooter
   },
   props: {},
   methods: {
+    onImpressOpen() {
+      this.showImpress = true;
+    },
+    onImpressClose() {
+      this.showImpress = false;
+    },
+    onDataProtectionOpen() {
+      this.showDataProtection = true;
+    },
+    onDataProtectionClose() {
+      this.showDataProtection = false;
+    },
     onLocationUpdated(location) {
       const instance = axios.create();
       instance
@@ -70,7 +96,9 @@ export default {
       location: undefined,
       stand: undefined,
       source: undefined,
-      name: undefined
+      name: undefined,
+      showDataProtection: false,
+      showImpress: false,
     }
   }
 }
@@ -105,6 +133,13 @@ export default {
   align-items: center;
 }
 
+.center-horizontally {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
 @keyframes fly-in {
 
   0% {
@@ -122,5 +157,19 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.bar {
+  padding-top: 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.item {
+  padding: 15px;
 }
 </style>
