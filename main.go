@@ -49,7 +49,7 @@ func setupRouter() {
 
 func startRkiInformationUpdater() {
 	updateRkiInformation()
-	ticker := time.NewTicker(1 * time.Hour)
+	ticker := time.NewTicker(12 * time.Hour)
 	go func() {
 		for range ticker.C {
 			updateRkiInformation()
