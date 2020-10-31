@@ -1,7 +1,7 @@
 <template>
   <h1 class="title fly-in">Wo hältst du dich auf?</h1>
   <div class="position-wrapper">
-    <Position @position-update="onLocationUpdated" :district="district"/>
+    <Position @on-location-requested="requestLocation" :district="district"/>
   </div>
   <div>
     <Status :state="state" :incidence="incidence"/>
@@ -57,6 +57,13 @@ export default {
     onDataProtectionClose() {
       this.showDataProtection = false;
     },
+    requestLocation() {
+      navigator.geolocation.getCurrentPosition((location) => {
+        this.onLocationUpdated(location);
+      }, function (errorPosition) {
+        alert('Standort konnte nicht abgefragt werrden!\n\n"' + errorPosition.message + '"\n\nWenn du iOS und Safari nutzt, erlaube Safari auf deinen Standort zuzugreifen!\n(Einstellungen -> Datenschutz -> Ortungsdienste -> Safari -> "Beim Verwenden")\n(Einstellungen -> Safari -> Standort -> Fragen)');
+      });
+    },
     onLocationUpdated(location) {
       const instance = axios.create();
       instance
@@ -100,6 +107,9 @@ export default {
       showDataProtection: false,
       showImpress: false,
     }
+  },
+  mounted() {
+    this.requestLocation();
   }
 }
 </script>

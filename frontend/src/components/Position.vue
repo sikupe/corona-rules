@@ -15,19 +15,8 @@ export default {
   },
   methods: {
     locate() {
-      if (navigator.geolocation) {
-        this.requestLocation();
-      } else {
-        alert("Standortfreigabe von Browser oder Gerät nicht unterstützt!")
-      }
+      this.$emit('on-location-requested');
     },
-    requestLocation() {
-      navigator.geolocation.getCurrentPosition((location) => {
-        this.$emit("position-update", location);
-      }, function (errorPosition) {
-        alert('Standort konnte nicht abgefragt werrden!\n\n"' + errorPosition.message + '"\n\nWenn du iOS und Safari nutzt, erlaube Safari auf deinen Standort zuzugreifen! (Einstellungen -> Datenschutz -> Ortungsdienste -> Safari -> "Beim Verwenden")');
-      });
-    }
   }
 }
 </script>
