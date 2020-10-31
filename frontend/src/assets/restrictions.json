@@ -133,5 +133,133 @@
         }
       ]
     }
+  },
+  {
+    "land": "Bayern",
+    "source": "https://www.bestellen.bayern.de/application/eshop_app000000?SID=367429491&ACTIONxSESSxSHOWPIC(BILDxKEY:%27stmgp_gesund_117%27,BILDxCLASS:%27Artikel%27,BILDxTYPE:%27PDF%27)",
+    "name": "Bayerisches Gesundheitsministerium",
+    "stand": "2020-10-31",
+    "restrictions": {
+      "0": [
+        {
+          "title": "Kontaktbeschränkungen",
+          "description": [
+            "Maximal 10 Personen oder 2 Haushalte im öffentlichen Raum"
+          ]
+        },
+        {
+          "title": "Veranstaltungen",
+          "description": [
+            "Maximal 100 Personen drinnen",
+            "Maximal 200 Personen draußen",
+            "Spezialregelungen für Kultur, Sport, Gottesdienst und Versammlungen"
+          ]
+        },
+        {
+          "title": "Maskenpflicht",
+          "description": [
+            "Bei besonderer Anordnung (z.B. ÖPNV, Schulen, Krankenhäuser, Gastronomie)",
+            "Wenn Mindestabstand (1,5m) nicht eingehalten werden kann"
+          ]
+        }
+      ],
+      "35": [
+        {
+          "title": "Kontaktbeschränkungen",
+          "description": [
+            "Maximal 10 Personen oder 2 Haushalte im öffentlichen Raum und bei privaten Feiern und Kontakten"
+          ]
+        },
+        {
+          "title": "Veranstaltungen",
+          "description": [
+            "Maximal 100 Personen drinnen",
+            "Maximal 200 Personen draußen",
+            "Spezialregelungen für Kultur, Sport, Gottesdienst und Versammlungen"
+          ]
+        },
+        {
+          "title": "Maskenpflicht",
+          "description": [
+            "Bei besonderer Anordnung (z.B. ÖPNV, Schulen, Krankenhäuser, Gastronomie)",
+            "Wenn Mindestabstand (1,5m) nicht eingehalten werden kann und wo Menschen dichter und länger zusammen sind (Fußgängerzonen, öffentliche Gebäude)",
+            "In weiterführenden Schulen ab der 5. Jahrgangsstufe",
+            "In Hochschulen"
+          ]
+        },
+        {
+          "title": "Sperrstunde",
+          "description": [
+            "Sperrstunde ab 23 Uhr",
+            "Alkoholverbot auf öffentlichen Plätzen ab 23 Uhr",
+            "Alkoholverkaufsverbot an Tankstellen ab 23 Uhr"
+          ]
+        }
+      ],
+      "50": [
+        {
+          "title": "Kontaktbeschränkungen",
+          "description": [
+            "Maximal 5 Personen oder 2 Haushalte im öffentlichen Raum und bei privaten Feiern und Kontakten (z.B. in Restaurants)"
+          ]
+        },
+        {
+          "title": "Veranstaltungen",
+          "description": [
+            "Maximal 100 Personen drinnen",
+            "Maximal 200 Personen draußen",
+            "Spezialregelungen für Kultur, Sport, Gottesdienst und Versammlungen"
+          ]
+        },
+        {
+          "title": "Maskenpflicht",
+          "description": [
+            "Bei besonderer Anordnung (z.B. ÖPNV, Schulen, Krankenhäuser, Gastronomie)",
+            "Wenn Mindestabstand (1,5m) nicht eingehalten werden kann und wo Menschen dichter und länger zusammen sind (Fußgängerzonen, öffentliche Gebäude)",
+            "In weiterführenden Schulen ab der 5. Jahrgangsstufe",
+            "In Hochschulen"
+          ]
+        },
+        {
+          "title": "Sperrstunde",
+          "description": [
+            "Sperrstunde ab 22 Uhr",
+            "Alkoholverbot auf öffentlichen Plätzen ab 22 Uhr",
+            "Alkoholverkaufsverbot an Tankstellen ab 22 Uhr"
+          ]
+        }
+      ],
+      "100": [
+        {
+          "title": "Kontaktbeschränkungen",
+          "description": [
+            "Maximal 5 Personen oder 2 Haushalte im öffentlichen Raum und bei privaten Feiern und Kontakten (z.B. in Restaurants)"
+          ]
+        },
+        {
+          "title": "Veranstaltungen",
+          "description": [
+            "Maximal 50 Personen bei Veranstaltungen aller Art",
+          ]
+        },
+        {
+          "title": "Maskenpflicht",
+          "description": [
+            "Bei besonderer Anordnung (z.B. ÖPNV, Schulen, Krankenhäuser, Gastronomie)",
+            "Wenn Mindestabstand (1,5m) nicht eingehalten werden kann und wo Menschen dichter und länger zusammen sind (u.a.: auf stark frequentierten öffentlichen Plätzen, in öffentlichen Gebäuden,  Arbeitsstätten, Freizeiteinrichtungen, Kulturstätten)",
+            "In allen Schulen in allen Jahrgangsstufen",
+            "In Hochschulen"
+          ]
+        },
+        {
+          "title": "Sperrstunde",
+          "description": [
+            "Sperrstunde ab 21 Uhr",
+            "Alkoholverbot auf öffentlichen Plätzen ab 21 Uhr",
+            "Alkoholverkaufsverbot an Tankstellen ab 21 Uhr"
+          ]
+        }
+      ]
+    }
   }
 ]
