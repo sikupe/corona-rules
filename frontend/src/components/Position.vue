@@ -14,28 +14,28 @@ export default {
     district: String,
   },
   methods: {
-    onPermissionUpdate(permissionStatus) {
-      if (permissionStatus.state === 'granted' || permissionStatus.state === 'prompt') {
-        this.requestLocation();
-      } else if (permissionStatus.state === 'denied') {
-        alert("Geolocation permission was denied!")
-      }
-    },
+    // onPermissionUpdate(permissionStatus) {
+    //   if (permissionStatus.state === 'granted' || permissionStatus.state === 'prompt') {
+    //     this.requestLocation();
+    //   } else if (permissionStatus.state === 'denied') {
+    //     alert("Geolocation permission was denied!")
+    //   }
+    // },
     locate() {
       if (navigator.geolocation) {
-        this.requestPermissionAndLocate();
+        this.requestLocation();
       } else {
         alert("Browser or device does not support geolocation services!")
       }
     },
-    requestPermissionAndLocate() {
-      navigator.permissions.query({name: 'geolocation'}).then((result) => {
-        this.onPermissionUpdate(result);
-        result.onchange = () => {
-          this.onPermissionUpdate(result);
-        }
-      });
-    },
+    // requestPermissionAndLocate() {
+    //   navigator.permissions.query({name: 'geolocation'}).then((result) => {
+    //     this.onPermissionUpdate(result);
+    //     result.onchange = () => {
+    //       this.onPermissionUpdate(result);
+    //     }
+    //   });
+    // },
     requestLocation() {
       navigator.geolocation.getCurrentPosition((location) => {
         this.$emit("position-update", location);
