@@ -18,7 +18,7 @@ export default {
       navigator.geolocation.getCurrentPosition((location) => {
         this.$emit("position-update", location);
       }, function (errorPosition) {
-        alert("Position could not be obtained! " + errorPosition);
+        alert("Position could not be obtained! " + errorPosition.message);
       })
     }
   }
