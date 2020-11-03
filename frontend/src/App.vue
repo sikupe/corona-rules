@@ -1,7 +1,7 @@
 <template>
   <h1 class="title fly-in">Wo hältst du dich auf?</h1>
   <div class="position-wrapper">
-    <Position @on-location-requested="requestLocation" :district="district"/>
+    <Position @on-location-requested="requestLocation" :nuts="nuts" @selected="onSelected"/>
   </div>
   <div>
     <Status :state="state" :incidence="incidence"/>
@@ -14,7 +14,7 @@
 
   <div class="center-horizontally">
     <DataProtection v-if="showDataProtection" @on-close="onDataProtectionClose"/>
-    <Impress v-if="showImpress" @on-close="onImpressClose" />
+    <Impress v-if="showImpress" @on-close="onImpressClose"/>
   </div>
 
   <div class="bar">
@@ -64,39 +64,52 @@ export default {
         alert('Standort konnte nicht abgefragt werrden!\n\n"' + errorPosition.message + '"\n\nWenn du iOS und Safari nutzt, erlaube Safari auf deinen Standort zuzugreifen!\n(Einstellungen -> Datenschutz -> Ortungsdienste -> Safari -> "Beim Verwenden")\n(Einstellungen -> Safari -> Standort -> Fragen)');
       });
     },
+    onSelected(nuts) {
+      const instance = axios.create();
+      instance
+          .get('/nuts/' + nuts)
+          .then(response => {
+            this.onServerResult(response);
+          });
+    },
     onLocationUpdated(location) {
       const instance = axios.create();
       instance
           .get('/locate/' + location.coords.latitude + '/' + location.coords.longitude)
           .then(response => {
-            this.district = response.data.Name;
-            this.state = response.data.Land;
-            this.incidence = response.data.Incidence;
-            for (let land of json) {
-              if (land.land === this.state) {
-                let marks = Object.keys(land.restrictions);
-                marks = marks.map((s) => parseInt(s)).sort((a, b) => a - b);
-                for (let i = 1; i < marks.length; i++) {
-                  const lowerBound = marks[i - 1];
-                  const upperBound = marks[i];
-                  const incidence = parseFloat(this.incidence);
-                  if (lowerBound <= incidence && incidence < upperBound) {
-                    this.restrictions = land.restrictions[marks[i - 1]];
-                    return;
-                  }
-                }
-                this.restrictions = land.restrictions[marks[marks.length - 1]];
-                this.source = land.source;
-                this.name = land.name;
-                this.stand = land.stand;
-              }
-            }
+            this.onServerResult(response);
           });
+    },
+    onServerResult(response) {
+      this.district = response.data.Name;
+      this.state = response.data.Land;
+      this.incidence = response.data.Incidence;
+      this.nuts = response.data.Nuts;
+      this.restrictions = [];
+      for (let land of json) {
+        if (land.land === this.state) {
+          let marks = Object.keys(land.restrictions);
+          marks = marks.map((s) => parseInt(s)).sort((a, b) => a - b);
+          for (let i = 1; i < marks.length; i++) {
+            const lowerBound = marks[i - 1];
+            const upperBound = marks[i];
+            const incidence = parseFloat(this.incidence);
+            if (lowerBound <= incidence && incidence < upperBound) {
+              this.restrictions = land.restrictions[marks[i - 1]];
+              return;
+            }
+          }
+          this.restrictions = land.restrictions[marks[marks.length - 1]];
+          this.source = land.source;
+          this.name = land.name;
+          this.stand = land.stand;
+        }
+      }
     }
   },
   data() {
     return {
-      restrictions: undefined,
+      restrictions: [],
       district: "Nicht bekannt",
       state: "Nicht bekannt",
       incidence: "Nicht bekannt",
@@ -104,11 +117,23 @@ export default {
       stand: undefined,
       source: undefined,
       name: undefined,
+      nuts: undefined,
       showDataProtection: false,
       showImpress: false,
     }
   },
   mounted() {
+    let counter = 0;
+    for (let land of json) {
+      let marks = Object.keys(land.restrictions);
+      for (let mark of marks) {
+        const restrictions = land.restrictions[mark];
+        for (let restriction of restrictions) {
+          restriction.id = counter;
+          counter++;
+        }
+      }
+    }
     this.requestLocation();
   }
 }

@@ -1,6 +1,6 @@
 <template>
   <div id="position">
-    <div id="location-text">{{ district }}</div>
+    <Select id="location-text" :elements="suggestions" @selected="onSelected" :nuts="nuts"></Select>
     <div id="locate-button" v-on:click="locate">
       <img src="../assets/location.svg">
     </div>
@@ -8,15 +8,27 @@
 </template>
 
 <script>
+import json from '../assets/kreise.json';
+import Select from "@/components/Select";
+
 export default {
   name: "Position",
+  components: {Select},
   props: {
-    district: String,
+    nuts: String,
   },
   methods: {
     locate() {
       this.$emit('on-location-requested');
     },
+    onSelected(nuts) {
+      this.$emit('selected', nuts);
+    }
+  },
+  data() {
+    return {
+      suggestions: json
+    }
   }
 }
 </script>

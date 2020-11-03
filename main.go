@@ -38,6 +38,7 @@ func setupRouter() {
 	router.PathPrefix("/js/").Handler(fs)
 	router.Handle("/favicon.ico", fs)
 	router.HandleFunc("/locate/{lat}/{lon}", locate)
+	router.HandleFunc("/nuts/{nuts}", nuts)
 	log.Fatal(http.ListenAndServe(":8080", router))
 }
 
@@ -137,6 +138,41 @@ func locateCoors(lat, lon float64) (LocateResult, error) {
 		}
 	}
 	return LocateResult{}, fmt.Errorf("not found")
+}
+
+func nuts(writer http.ResponseWriter, request *http.Request) {
+	vars := mux.Vars(request)
+	nuts := vars["nuts"]
+	locateResult, err := processNuts(nuts)
+
+	if err != nil {
+		writer.WriteHeader(500)
+		writer.Write([]byte("Something went wrong!"))
+	} else {
+		json.NewEncoder(writer).Encode(locateResult)
+	}
+}
+
+func processNuts(nuts string) (LocateResult, error) {
+	for _, feature := range fc.Features {
+		if feature.Properties.MustString("nuts") == nuts {
+			incidence, err := findIncidence(nuts)
+			if err != nil {
+				return LocateResult{}, err
+			}
+			coords := feature.Properties["geo_point_2d"].([]interface{})
+
+			return LocateResult{
+				coords[0].(float64),
+				coords[1].(float64),
+				nuts,
+				feature.Properties.MustString("gen"),
+				feature.Properties.MustString("bundesland"),
+				incidence,
+			}, nil
+		}
+	}
+	return LocateResult{}, fmt.Errorf("NUTS not found")
 }
 
 func locate(writer http.ResponseWriter, request *http.Request) {
