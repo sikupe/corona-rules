@@ -22,11 +22,13 @@ export default {
 </script>
 
 <style scoped>
-.impress {
-  width: 30%;
-  height: 30%;
-  top: 35%;
-  left: 35%;
+@media only screen and (min-width: 768px) {
+  .impress {
+    width: 30%;
+    height: 30%;
+    top: 35%;
+    left: 35%;
+  }
 }
 .content {
   font-size: 16pt;

@@ -36,7 +36,6 @@ export default {
   width: 70%; /* Full width (cover the whole page) */
   height: 80%; /* Full height (cover the whole page) */
   top: 5%;
-  left: 15%;
   background-color: rgb(255, 255, 255); /* Black background with opacity */
   z-index: 2;
   padding: 25px;
