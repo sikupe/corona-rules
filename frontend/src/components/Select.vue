@@ -73,8 +73,13 @@ export default {
 
 <style scoped>
 #lk-input {
-  width: 100%;
+  outline: none;
   border-style: none;
+
+  width: 100%;
+
+  text-align: left;
+  font-size: 14pt;
 }
 
 #lk-input:focus {

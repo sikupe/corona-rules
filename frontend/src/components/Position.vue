@@ -47,9 +47,7 @@ export default {
 }
 
 #location-text {
-  text-align: left;
   padding-left: 10px;
-  padding-top: 5px;
   flex: 1;
   color: gray;
   cursor: default;
