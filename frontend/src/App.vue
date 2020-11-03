@@ -10,7 +10,7 @@
     <Restriction v-for="restriction in restrictions" :key="restriction.id" :title="restriction.title"
                  :description="restriction.description"/>
   </div>
-  <RestrictionFooter v-if="restrictions" :name="name" :stand="stand" :source="source"/>
+  <RestrictionFooter v-if="areRestrictionsAvailable()" :name="name" :stand="stand" :source="source"/>
 
   <div class="center-horizontally">
     <DataProtection v-if="showDataProtection" @on-close="onDataProtectionClose"/>
@@ -32,6 +32,8 @@ import json from './assets/restrictions.json';
 import axios from 'axios';
 import DataProtection from "@/components/DataProtection";
 import Impress from "@/components/Impress";
+
+const unknown = "Nicht bekannt";
 
 export default {
   name: 'App',
@@ -70,7 +72,8 @@ export default {
           .get('/nuts/' + nuts)
           .then(response => {
             this.onServerResult(response);
-          });
+          })
+          .catch(this.onServerError);
     },
     onLocationUpdated(location) {
       const instance = axios.create();
@@ -78,41 +81,62 @@ export default {
           .get('/locate/' + location.coords.latitude + '/' + location.coords.longitude)
           .then(response => {
             this.onServerResult(response);
-          });
+          })
+          .catch(this.onServerError);
+    },
+    areRestrictionsAvailable() {
+      return this.restrictions & this.restrictions.length > 0;
     },
     onServerResult(response) {
-      this.district = response.data.Name;
-      this.state = response.data.Land;
-      this.incidence = response.data.Incidence;
-      this.nuts = response.data.Nuts;
-      this.restrictions = [];
-      for (let land of json) {
-        if (land.land === this.state) {
-          let marks = Object.keys(land.restrictions);
-          marks = marks.map((s) => parseInt(s)).sort((a, b) => a - b);
-          for (let i = 1; i < marks.length; i++) {
-            const lowerBound = marks[i - 1];
-            const upperBound = marks[i];
-            const incidence = parseFloat(this.incidence);
-            if (lowerBound <= incidence && incidence < upperBound) {
-              this.restrictions = land.restrictions[marks[i - 1]];
-              return;
+      if (response.status === 200) {
+        this.district = response.data.Name;
+        this.state = response.data.Land;
+        this.incidence = response.data.Incidence;
+        this.nuts = response.data.Nuts;
+        this.restrictions = [];
+        for (let land of json) {
+          if (land.land === this.state) {
+            let marks = Object.keys(land.restrictions);
+            marks = marks.map((s) => parseInt(s)).sort((a, b) => a - b);
+            for (let i = 1; i < marks.length; i++) {
+              const lowerBound = marks[i - 1];
+              const upperBound = marks[i];
+              const incidence = parseFloat(this.incidence);
+              if (lowerBound <= incidence && incidence < upperBound) {
+                this.restrictions = land.restrictions[marks[i - 1]];
+                return;
+              }
             }
+            this.restrictions = land.restrictions[marks[marks.length - 1]];
+            this.source = land.source;
+            this.name = land.name;
+            this.stand = land.stand;
           }
-          this.restrictions = land.restrictions[marks[marks.length - 1]];
-          this.source = land.source;
-          this.name = land.name;
-          this.stand = land.stand;
         }
+      } else {
+        this.onServerError();
+      }
+    },
+    onServerError(error) {
+      this.district = unknown;
+      this.state = unknown;
+      this.incidence = unknown;
+      this.nuts = undefined;
+      this.restrictions = [];
+      this.source = undefined;
+      this.name = undefined;
+      this.stand = undefined;
+      if (error) {
+        alert(error);
       }
     }
   },
   data() {
     return {
       restrictions: [],
-      district: "Nicht bekannt",
-      state: "Nicht bekannt",
-      incidence: "Nicht bekannt",
+      district: unknown,
+      state: unknown,
+      incidence: unknown,
       location: undefined,
       stand: undefined,
       source: undefined,
