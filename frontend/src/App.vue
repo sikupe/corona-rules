@@ -9,8 +9,9 @@
   <div class="rules">
     <Restriction v-for="restriction in restrictions" :key="restriction.id" :title="restriction.title"
                  :description="restriction.description"/>
+    <NoRestrictions v-if="!restrictions || restrictions.length === 0" />
   </div>
-  <RestrictionFooter v-if="areRestrictionsAvailable()" :name="name" :stand="stand" :source="source"/>
+  <RestrictionFooter v-if="restrictions && restrictions.length > 0" :name="name" :stand="stand" :source="source"/>
 
   <div class="center-horizontally">
     <DataProtection v-if="showDataProtection" @on-close="onDataProtectionClose"/>
@@ -32,12 +33,14 @@ import json from './assets/restrictions.json';
 import axios from 'axios';
 import DataProtection from "@/components/DataProtection";
 import Impress from "@/components/Impress";
+import NoRestrictions from "@/components/NoRestrictions";
 
 const unknown = "Nicht bekannt";
 
 export default {
   name: 'App',
   components: {
+    NoRestrictions,
     Impress,
     DataProtection,
     Restriction,
